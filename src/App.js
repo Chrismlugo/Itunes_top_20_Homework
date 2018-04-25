@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import ChartContainer from "./containers/ChartContainer";
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <h1>Uk Top 20!</h1>
+      <ChartContainer/>
     );
   }
 }
